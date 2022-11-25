@@ -87,7 +87,7 @@ defaultContentLanguage = "nl"
       [[languages.nl.menu.main]]
         identifier = "hrtcafe"
         name = "HRT CAFE"
-        url = "https:/diyhrt.caafe"
+        url = "https:/diyhrt.cafe"
       [[languages.nl.menu.main]]
         identifier = "diyhrtwiki"
         name = "DIYHRT WIKI"
