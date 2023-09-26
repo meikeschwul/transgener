@@ -1,9 +1,9 @@
 +++
 title = "Gender"
-date = "2022-11-27T21:30:51Z"
+date = "2023-06-26T21:30:51Z"
 author = "Meike"
 keywords = ["", ""]
-description = "Genderstereotypes, genderidentiteit en genderexpressie"
+description = "Proof of concept"
 showFullContent = false
 readingTime = false
 hideComments = false
