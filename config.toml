@@ -92,3 +92,7 @@ defaultContentLanguage = "nl"
         identifier = "diyhrtwiki"
         name = "DIYHRT WIKI"
         url = "https://diyhrt.wiki"
+      [[languages.nl.menu.main]]
+        identifier = "zine"
+        name = "Zine PDF"
+        url = "https://transgener.de/transgener.pdf"
