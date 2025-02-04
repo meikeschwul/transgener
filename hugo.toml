@@ -1,9 +1,10 @@
 baseurl = "/"
-languageCode = "en-us"
+languageCode = "nl-nl"
 # Add it only if you keep the theme in the `themes` directory.
 # Remove it if you use the theme as a remote Hugo Module.
 theme = "terminal"
 pagination.pagerSize = 5
+defaultContentLanguage = "nl"
 
 [params]
   # dir name of your main content (default is `content/posts`).
@@ -20,7 +21,7 @@ pagination.pagerSize = 5
   fullWidthTheme = false
 
   # center theme with default width
-  centerTheme = false
+  centerTheme = true
 
   # if your resource directory contains an image called `cover.(jpg|png|webp)`,
   # then the file will be used as a cover automatically.
@@ -59,52 +60,36 @@ pagination.pagerSize = 5
   # Example format, with date, time, and timezone abbreviation:
   # dateFormat = "2006-01-02 3:04:06 PM MST"
 
-
-[params.twitter]
-  # set Twitter handles for Twitter cards
-  # see https://developer.twitter.com/en/docs/tweets/optimize-with-cards/guides/getting-started#card-and-content-attribution
-  # do not include @
-  creator = ""
-  site = ""
-
 [languages]
-  [languages.en]
-    languageName = "English"
+  [languages.nl]
+    languageName = "Dutch"
     title = "Terminal"
 
-    [languages.en.params]
-      subtitle = "A simple, retro theme for Hugo"
+    [languages.nl.params]
+      subtitle = "Trans met een gener"
       owner = ""
       keywords = ""
       copyright = ""
-      menuMore = "Show more"
-      readMore = "Read more"
-      readOtherPosts = "Read other posts"
-      newerPosts = "Newer posts"
-      olderPosts = "Older posts"
-      missingContentMessage = "Page not found..."
-      missingBackButtonLabel = "Back to home page"
-      minuteReadingTime = "min read"
-      words = "words"
+      menuMore = "Laat meer zien"
+      readMore = "Lees meer"
+      readOtherPosts = "Leesr andere posts"
+      newerPosts = "Nieuwere posts"
+      olderPosts = "Oudere posts"
+      missingContentMessage = "Pagina niet gevonden..."
+      missingBackButtonLabel = "Terug naar homepage"
+      minuteReadingTime = "min leestijd"
+      words = "woorden"
 
-      [languages.en.params.logo]
+      [languages.nl.params.logo]
         logoText = "Terminal"
         logoHomeLink = "/"
 
-      [languages.en.menu]
-        [[languages.en.menu.main]]
-          identifier = "about"
-          name = "About"
-          url = "/about"
-        [[languages.en.menu.main]]
-          identifier = "showcase"
-          name = "Showcase"
-          url = "/showcase"
-
-#[module]
-  # In case you would like to make changes to the theme and keep it locally in you repository,
-  # uncomment the line below (and correct the local path if necessary).
-  # --
-  # replacements = "github.com/panr/hugo-theme-terminal/v4 -> themes/terminal"
-#[[module.imports]]
-#  path = 'github.com/panr/hugo-theme-terminal/v4'
+#      [languages.nl.menu]
+#        [[languages.nl.menu.main]]
+#          identifier = "about"
+#          name = "About"
+#          url = "/about"
+#        [[languages.nl.menu.main]]
+#          identifier = "showcase"
+#          name = "Showcase"
+#          url = "/showcase"
