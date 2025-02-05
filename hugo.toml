@@ -1,10 +1,17 @@
 baseurl = "/"
-languageCode = "nl-nl"
+languageCode = "nl"
 # Add it only if you keep the theme in the `themes` directory.
 # Remove it if you use the theme as a remote Hugo Module.
 theme = "terminal"
 pagination.pagerSize = 5
 defaultContentLanguage = "nl"
+copyright = "© Meike"
+owner = "Meike"
+enableEmoji = true
+enableRobotsTXT = true
+timeZone = "Europe/Amsterdam"
+
+
 
 [params]
   # dir name of your main content (default is `content/posts`).
@@ -60,6 +67,7 @@ defaultContentLanguage = "nl"
   # Example format, with date, time, and timezone abbreviation:
   # dateFormat = "2006-01-02 3:04:06 PM MST"
 
+
 [languages]
   [languages.nl]
     languageName = "Dutch"
@@ -67,12 +75,10 @@ defaultContentLanguage = "nl"
 
     [languages.nl.params]
       subtitle = "Trans met een gener"
-      owner = ""
       keywords = ""
-      copyright = ""
       menuMore = "Laat meer zien"
       readMore = "Lees meer"
-      readOtherPosts = "Leesr andere posts"
+      readOtherPosts = "Lees andere posts"
       newerPosts = "Nieuwere posts"
       olderPosts = "Oudere posts"
       missingContentMessage = "Pagina niet gevonden..."
@@ -81,7 +87,7 @@ defaultContentLanguage = "nl"
       words = "woorden"
 
       [languages.nl.params.logo]
-        logoText = "Terminal"
+        logoText = "Transgener"
         logoHomeLink = "/"
 
 #      [languages.nl.menu]
