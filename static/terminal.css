@@ -2,9 +2,9 @@
 @import url(https://cdn.jsdelivr.net/npm/firacode@6.2.0/distr/fira_code.css);
 
 :root {
-  --background: #25062a;
-  --foreground: #f7e9f9;
-  --accent: #e575f8;
+  --background: #f7f4ff;
+  --foreground: #403352;
+  --accent: #6f49ab;
   --radius: 0;
   --font-size: 1rem;
   --line-height: 1.54em;

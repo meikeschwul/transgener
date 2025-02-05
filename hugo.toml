@@ -56,14 +56,14 @@ defaultContentLanguage = "nl"
   # This value can be customized according to Hugo documentation:
   # https://gohugo.io/functions/time/format/
   # Default value (no changes needed):
-  # dateFormat = "2006-01-02"
+  dateFormat = "2 Jan 2006"
   # Example format, with date, time, and timezone abbreviation:
   # dateFormat = "2006-01-02 3:04:06 PM MST"
 
 [languages]
   [languages.nl]
     languageName = "Dutch"
-    title = "Terminal"
+    title = "Transgener"
 
     [languages.nl.params]
       subtitle = "Trans met een gener"
